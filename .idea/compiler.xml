@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-client" />
         <module name="config-server" />
+        <module name="config-server-loadcopy" />
         <module name="eureka-client-1" />
         <module name="eureka-client-2" />
         <module name="eureka-client-feign" />
         <module name="eureka-client-ribbon" />
         <module name="eureka-client-zuul" />
+        <module name="eureka-server" />
         <module name="eureka-server-1" />
         <module name="eureka-server-2" />
       </profile>
@@ -20,11 +22,13 @@
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
+      <module name="config-server-loadcopy" target="1.8" />
       <module name="eureka-client-1" target="1.8" />
       <module name="eureka-client-2" target="1.8" />
       <module name="eureka-client-feign" target="1.8" />
       <module name="eureka-client-ribbon" target="1.8" />
       <module name="eureka-client-zuul" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="eureka-server-1" target="1.8" />
       <module name="eureka-server-2" target="1.8" />
     </bytecodeTargetLevel>
