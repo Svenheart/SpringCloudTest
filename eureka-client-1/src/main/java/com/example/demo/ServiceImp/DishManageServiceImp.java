@@ -6,7 +6,12 @@ import com.example.demo.entity.DishMenu;
 import com.example.demo.service.DishManageService;
 import com.example.demo.util.Msg;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @program:com.lt5.foodmanage.ServiceImp
@@ -22,6 +27,8 @@ public class DishManageServiceImp implements DishManageService {
 
 	@Autowired
 	private DishManageDao dishManageDao;
+	@Autowired
+	protected RedisTemplate<String,String> redisTemplate;
 
 	@Override
 	public Msg addDish(DishMenu dishMenu) {
@@ -57,7 +64,12 @@ public class DishManageServiceImp implements DishManageService {
 	@Override
 	public Msg queryDish(int storeId) {
 		try{
-			String data=JSON.toJSONString(dishManageDao.queryDish(storeId));
+			String data=redisTemplate.opsForValue().get(String.valueOf(storeId));
+			if(data==null){
+				List<DishMenu> dishMenuList=dishManageDao.queryDish(storeId);
+				data=JSON.toJSONString(dishMenuList);
+				redisTemplate.opsForValue().set(String.valueOf(storeId),data);
+			}
 			msg.setDataBody(data);
 		}catch (Exception e){
 			msg.setStatus(0);
