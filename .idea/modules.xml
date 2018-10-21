@@ -2,14 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloudTest.iml" filepath="$PROJECT_DIR$/.idea/SpringCloudTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server-loadcopy/config-server-loadcopy.iml" filepath="$PROJECT_DIR$/config-server-loadcopy/config-server-loadcopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/demo (1).iml" filepath="$PROJECT_DIR$/config-client/demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-2/demo (10).iml" filepath="$PROJECT_DIR$/eureka-server-2/demo (10).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/demo (11).iml" filepath="$PROJECT_DIR$/eureka-server/demo (11).iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server-loadcopy/demo (2).iml" filepath="$PROJECT_DIR$/config-server-loadcopy/demo (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/demo (3).iml" filepath="$PROJECT_DIR$/config-server/demo (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-1/demo (4).iml" filepath="$PROJECT_DIR$/eureka-client-1/demo (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-2/demo (5).iml" filepath="$PROJECT_DIR$/eureka-client-2/demo (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-ribbon/demo (7).iml" filepath="$PROJECT_DIR$/eureka-client-ribbon/demo (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-zuul/demo (8).iml" filepath="$PROJECT_DIR$/eureka-client-zuul/demo (8).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server-1/demo (9).iml" filepath="$PROJECT_DIR$/eureka-server-1/demo (9).iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-1/eureka-client-1.iml" filepath="$PROJECT_DIR$/eureka-client-1/eureka-client-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-2/eureka-client-2.iml" filepath="$PROJECT_DIR$/eureka-client-2/eureka-client-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" filepath="$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" filepath="$PROJECT_DIR$/eureka-client-feign/eureka-client-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" filepath="$PROJECT_DIR$/eureka-client-ribbon/eureka-client-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-zuul/eureka-client-zuul.iml" filepath="$PROJECT_DIR$/eureka-client-zuul/eureka-client-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client1/eureka-client1.iml" filepath="$PROJECT_DIR$/eureka-client1/eureka-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-monitor-client/eureka-monitor-client.iml" filepath="$PROJECT_DIR$/eureka-monitor-client/eureka-monitor-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-1/eureka-server-1.iml" filepath="$PROJECT_DIR$/eureka-server-1/eureka-server-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-2/eureka-server-2.iml" filepath="$PROJECT_DIR$/eureka-server-2/eureka-server-2.iml" />

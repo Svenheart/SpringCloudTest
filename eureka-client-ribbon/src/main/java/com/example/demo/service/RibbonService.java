@@ -19,7 +19,7 @@ import org.springframework.web.client.RestTemplate;
 public class RibbonService {
 	@Autowired
 	RestTemplate restTemplate;
-	@HystrixCommand(fallbackMethod = "hiError")
+	@HystrixCommand(fallbackMethod = "hiError")//服务关闭后执行hiError返回信息
 	public String hi(){
 		return restTemplate.getForObject("http://eureka-client/"/*确定请求应用名（application.properties中spring.application.name的值）*/
 				,String.class/*确定响应数据的类型*/);

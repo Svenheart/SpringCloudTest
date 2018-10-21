@@ -9,11 +9,24 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="config-server-loadcopy" />
+        <module name="demo (1)" />
+        <module name="demo (10)" />
+        <module name="demo (11)" />
+        <module name="demo (2)" />
+        <module name="demo (3)" />
+        <module name="demo (4)" />
+        <module name="demo (5)" />
+        <module name="demo (7)" />
+        <module name="demo (8)" />
+        <module name="demo (9)" />
+        <module name="eureka-client" />
         <module name="eureka-client-1" />
         <module name="eureka-client-2" />
         <module name="eureka-client-feign" />
         <module name="eureka-client-ribbon" />
         <module name="eureka-client-zuul" />
+        <module name="eureka-client1" />
+        <module name="eureka-monitor-client" />
         <module name="eureka-server" />
         <module name="eureka-server-1" />
         <module name="eureka-server-2" />
@@ -23,11 +36,26 @@
       <module name="config-client" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="config-server-loadcopy" target="1.8" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (10)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="demo (3)" target="1.8" />
+      <module name="demo (4)" target="1.8" />
+      <module name="demo (5)" target="1.8" />
+      <module name="demo (6)" target="1.8" />
+      <module name="demo (7)" target="1.8" />
+      <module name="demo (8)" target="1.8" />
+      <module name="demo (9)" target="1.8" />
+      <module name="eureka-client" target="1.8" />
       <module name="eureka-client-1" target="1.8" />
       <module name="eureka-client-2" target="1.8" />
       <module name="eureka-client-feign" target="1.8" />
       <module name="eureka-client-ribbon" target="1.8" />
       <module name="eureka-client-zuul" target="1.8" />
+      <module name="eureka-client1" target="1.8" />
+      <module name="eureka-minitor-client" target="1.8" />
+      <module name="eureka-monitor-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-server-1" target="1.8" />
       <module name="eureka-server-2" target="1.8" />

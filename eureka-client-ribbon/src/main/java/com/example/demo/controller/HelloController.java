@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	@Autowired
 	RibbonService ribbonService;
-	@GetMapping("/")
+	@GetMapping("/hi")
 	public String hello(){
 		return ribbonService.hi();
 	}
